@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ring-works</title>
+    <link rel="stylesheet" href="assets/css/workers-form.css">
+</head>
+<body>
+    <div class="container-box">
+        <h3>WORKER'S FORM</h3>
+        <form autocomplete="on" method="post" name="google-sheet" class="worker-form">
+            <label for="#">Enter your name
+                <input type="text" name="NAME" required >
+            </label>
+            <label for="#">Working Place
+                <input type="text" name="PLACE" required>
+            </label>
+            <label for="#">Total person
+                <input type="number" name="TOTAL PERSON" required>
+            </label>
+            <label for="#">Working date
+                <input type="date" name="DATE" required>
+            </label>
+            <label for="#">Working hour
+                <select name="WORKING TIME" >
+                    <option value="OPTION">select option</option>
+                    <option value="FULL TIME">Full time</option>
+                    <option value="HALF TIME">Half time</option>
+                </select>
+            </label>
+            <div class="submit-btn">
+                <button class="submit" type="submit">Submit</button>    
+            </div>
+        </form>
+    </div>
+
+    <script src="assets/workers.js"></script>
+</body>
+</html>
